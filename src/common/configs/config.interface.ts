@@ -24,6 +24,7 @@ export interface SwaggerConfig {
 
 export interface GraphqlConfig {
   playgroundEnabled: boolean;
+  apploSandboxEnabled: boolean;
   debug: boolean;
   schemaDestination: string;
   sortSchema: boolean;
